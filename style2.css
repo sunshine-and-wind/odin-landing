@@ -1,0 +1,66 @@
+body {
+    background-color: lightblue;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(200, 209, 250);
+    margin: 0 10%;
+    padding: 10px;
+    padding-bottom: 100px;
+  }
+  
+  .left, .right {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+  }
+
+  .left {
+    margin-left: 10%;
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .right {
+    margin-right: 10%;
+  }
+
+  .sop {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 1px;
+    margin-top: 0px;
+  }
+  
+.sea {
+    width: 70px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+  .bt {
+    width: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  button {
+    max-width: 20%;
+    margin-bottom: 15px;
+  }
+  
+  .ep {
+    font-size: 20px;
+    margin-top: 1px;
+  }
+
+  .cars {
+    max-height: 250px;
+  }

@@ -1,0 +1,41 @@
+body {
+    margin: 0 10%;
+}
+
+.header {
+    background-color: aliceblue;
+    color:rgb(54, 54, 54);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sea {
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
+    margin: 5px;
+}
+
+.links {
+    display:flex;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.links>* {
+    margin: 20px;
+}
+
+.toplinks ul {
+    list-style: none;
+    display: flex;
+    border: 2px solid;
+}
+
+a {
+    margin: 10px;
+}
