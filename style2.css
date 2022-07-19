@@ -2,6 +2,8 @@ body {
     background-color: lightblue;
   }
   
+/* css for header begins */
+
   .header {
     display: flex;
     justify-content: space-between;
@@ -24,6 +26,9 @@ body {
   .links {
     display: flex;
     justify-content: space-evenly;
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
   .right {
@@ -45,7 +50,6 @@ body {
 
   .bt {
     width: 450px;
-
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -54,6 +58,7 @@ body {
   button {
     max-width: 20%;
     margin-bottom: 15px;
+    font-size: 20px;
   }
   
   .ep {
@@ -64,3 +69,28 @@ body {
   .cars {
     max-height: 250px;
   }
+
+  /* CSS FOR GALLERY BEGINS */
+
+  .title {
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .gi {
+    max-width: 150px;
+    border-radius: 20px;
+  }
+
+  .gallery {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+  }
+
+
