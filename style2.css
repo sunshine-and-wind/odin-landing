@@ -1,5 +1,5 @@
 body {
-    background-color: lightblue;
+    background-color: white;
   }
   
 /* css for header begins */
@@ -8,9 +8,10 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: rgb(200, 209, 250);
-    margin: 0 10%;
+    margin-left: 300px;
+    margin-right: 300px;
     padding: 10px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
   }
   
   .left, .right {
@@ -55,10 +56,11 @@ body {
     justify-content: space-between;
   }
 
-  button {
-    max-width: 20%;
-    margin-bottom: 15px;
+  #b1 {
+    max-width: 30%;
     font-size: 20px;
+    border-radius: 30px;
+    padding: 5px;
   }
   
   .ep {
@@ -71,6 +73,12 @@ body {
   }
 
   /* CSS FOR GALLERY BEGINS */
+
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+  }
 
   .title {
     display: flex;
@@ -87,10 +95,91 @@ body {
   }
 
   .gallery {
+    border: 2px solid black;
     display: flex;
     justify-content: space-around;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
     margin-left: 300px;
     margin-right: 300px;
   }
 
+/* QUOTE CSS STARTS HERE */
 
+.container3 {
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+}
+
+.quotebloc {
+    padding: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: rgb(200, 209, 250);
+}
+
+.quote, .signee {
+    font-style: italic;
+    font-size: 36px;
+}
+
+.quote {
+    padding: 25px 115px 0 115px;
+}
+
+.signee {
+    align-self: flex-end;
+    padding-bottom: 20px;
+    padding-right: 125px;
+}
+
+/* signup CSS STARTS HERE */
+
+.signup {
+    padding: 20px;
+}
+
+.container4 {
+    border: 2px solid black;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.l1 {
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 1px;
+}
+
+.l2 {
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 1px;
+}
+
+.rs {
+    display: flex;
+    align-items: center;
+}
+
+#b2 {
+    background-color: blue
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+    text-align: center;
+}
